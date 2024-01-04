@@ -1,0 +1,69 @@
+.container{
+    height:1000px;
+    width: 5000px;
+   background: url('https://media.istockphoto.com/id/980782144/video/blue-sky-full-of-clouds-moving-right-to-left-cartoon-sky-background-flat-animation.jpg?s=640x640&k=20&c=Vs2E_as7jdxoIHdPppHNnU1sDXfBc_yhI8ER3rLrtdA=');
+}
+
+.heading-box{
+    text-align: center;
+    color: rgb(228, 36, 125);
+    
+}
+.container img{
+    height: 130px;
+    width: 130px;
+
+}
+/* .success-image{
+    height:100px;
+    width:100px;
+} */
+
+
+.main-box{
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+   
+margin-left:600px;
+
+}
+.btn-yes{
+    margin-top: 30px;
+    padding: 10px;
+    width: 150px;
+    background-color: rgb(116, 194, 240);
+    border:none;
+    border-radius: 10px;
+    color: rgb(11, 2, 37);
+    font-size: 22px;
+    box-shadow: 5px 5px rgb(95, 78, 78);
+    font: bold;
+}
+
+.button-no{
+    padding: 10px;
+    width: 100px;
+    background-color: pink;
+    border:none;
+    border-radius: 10px;
+    color: rgb(75, 28, 184);
+    font-size: 22px;
+    box-shadow: 5px 5px rgb(95, 78, 78);
+    font: bold;
+}
+.btn1{
+    position: absolute;
+    margin-left:-600px;
+    margin-top:50px;
+
+}
+
+.btn2{
+    position: absolute;
+    margin-left:500px;
+}
+.btn3{
+    position: absolute;
+    margin-top:300px;
+}

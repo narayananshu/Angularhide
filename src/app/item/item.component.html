@@ -1,0 +1,42 @@
+<!-- <p>item works!</p> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please! Yes</title>
+</head>
+<body>
+    <div class="container">
+        <h1  class="heading-box">{{this.heading}}</h1>       
+       <div class="main-box">  
+        <!-- <div class="img-question">
+            <img [src]="myurl" />         
+        </div> -->
+        <div class="button-box">
+            <img [src]="url" *ngIf="hidden" class="success-image"/>
+            <div class="btn-success">
+                <button type="button" class="btn-yes" (click)="handleYes()"[hidden]="btnhide">Ofcourse!</button>
+            </div>
+           
+
+            <div  >   
+            <button type="button" class="button-no btn1"
+            (mouseover)="hideEle=true"
+            (mouseleave)="hidebtn=true;hidesecbtn=false" [hidden]="hideEle" >No!!!</button>
+            </div>
+            <div class="button-float">
+              <button type="button" class="button-no btn2"
+              (mouseover)="hidebtn=true"
+          (mouseleave)="hideEle=false;hidesecbtn=true" [hidden]="hidebtn" >Say yes</button>
+          </div>
+          <div class="button2-float">
+            <button type="button" class="button-no btn3"
+            (mouseover)="hidesecbtn=true"
+        (mouseleave)="hideEle=true; hidebtn=false" [hidden]="hidesecbtn" >Think again</button>
+        </div>
+        </div>    
+    </div> 
+    </div>
+</body>
+</html>
